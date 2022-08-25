@@ -1,0 +1,11 @@
+def count_char_x(word, x):
+  count_x = []
+  for i in word:
+    if i == x:
+      count_x.append(i)
+  return len(count_x)
+# Uncomment these function calls to test your tip function:
+print(count_char_x("mississippi", "s"))
+# should print 4
+#print(count_char_x("mississippi", "m"))
+# should print 1
